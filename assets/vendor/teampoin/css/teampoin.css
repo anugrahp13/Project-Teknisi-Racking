@@ -37,8 +37,8 @@ a:hover {
 
 /* Part of Section Teampoin*/
 .teampoin-about {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .teampoin-contact {
@@ -47,6 +47,7 @@ a:hover {
 }
 
 .teampoin-blog {
+    font-family: 'Open Sans', sans-serif;
     height: auto !important;
 }
 
@@ -218,7 +219,6 @@ p.value-teampoin {
     font-size: 11pt;
     text-align: center !important;
     color: #fff;
-    font-weight: 500;
 }
 
 .font-teampoin p {
@@ -235,10 +235,6 @@ p.value-teampoin {
     opacity: 1;
     color: #fff;
     font-size: 10pt;
-}
-
-.form-control {
-    height: 50px;
 }
 
 a.social-media-teampoin {
@@ -378,7 +374,7 @@ a.social-media-teampoin:hover {
 }
 
 .bold-blog-teampoin {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .blog-content-teampoin {
@@ -391,7 +387,6 @@ a.social-media-teampoin:hover {
     font-size: 12px;
     letter-spacing: .8px;
 }
-
 
 .facebook {
     background-color: #516eab;
@@ -438,10 +433,6 @@ a.social-media-teampoin:hover {
     height: 90px;
 }
 
-.name-auth-teampoin {
-    font-weight: 500;
-}
-
 .bio-auth-teampoin {
     font-weight: 400;
     font-size: 10pt;
@@ -456,6 +447,18 @@ a.social-media-teampoin:hover {
     text-decoration: none;
 }
 
+.name-comments-teampoin {
+    font-weight: 700;
+}
+
+.note-comments-teampoin {
+    font-size: 13px;
+}
+
+.form-teampoin textarea,
+.form-teampoin input {
+    font-size: 14px;
+}
 
 /* Part of Footer */
 .footer {
