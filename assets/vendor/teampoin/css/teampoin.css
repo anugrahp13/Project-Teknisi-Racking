@@ -46,7 +46,6 @@ a:hover {
     padding-bottom: 50px;
 }
 
-
 /* Part of Header and Navbar */
 .nav-mobile {
     border-bottom: 1px solid #767676;
@@ -228,15 +227,6 @@ p.value-teampoin {
     width: 100%;
 }
 
-.to-service img {
-    width: 185px;
-    height: 185px;
-}
-
-figure.to-service {
-    text-align: center !important;
-}
-
 .copyright-teampoin {
     opacity: 1;
     color: #fff;
@@ -305,58 +295,8 @@ a.social-media-teampoin:hover {
     z-index: 1;
 }
 
-/* Part of Service */
-.to-card {
-    position: relative;
-    transition: .3s;
-}
+/* Part of Blog */
 
-.to-card .card-text,
-.to-card:after {
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.to-card:after {
-    content: '';
-    display: block;
-    background: #bf2025;
-    top: 0;
-    bottom: 0;
-    opacity: 0;
-    transform: rotate3d(-1, 1, 0, 100deg);
-    transition: .4s;
-}
-
-.to-card:hover:after {
-    opacity: .9;
-    transform: rotate3d(0, 0, 0, 0deg);
-}
-
-.to-card img {
-    width: 100%;
-    height: auto;
-}
-
-.card-text {
-    top: 45%;
-    opacity: 0;
-    transform: translate(10%, -30%);
-    transition: .3s;
-    text-align: center;
-    z-index: 1;
-}
-
-.card-text h3 {
-    color: #fff;
-}
-
-.to-card:hover .card-text {
-    opacity: 1;
-    transform: translate(0, -50%);
-    transition-delay: .3s;
-}
 
 /* Part of Footer */
 .footer {
