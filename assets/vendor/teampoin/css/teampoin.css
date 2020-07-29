@@ -46,6 +46,10 @@ a:hover {
     padding-bottom: 50px;
 }
 
+.teampoin-blog {
+    height: auto !important;
+}
+
 /* Part of Header and Navbar */
 .nav-mobile {
     border-bottom: 1px solid #767676;
@@ -352,6 +356,31 @@ a.social-media-teampoin:hover {
 .text-dark {
     font-size: 12pt;
 }
+
+/* Part of Post Blog */
+/* Breadcrumbs */
+.breadcrumbs a {
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+.breadcrumbs .breadcrumbs_last {
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+.blog-title-teampoin {
+    font-weight: 600;
+}
+
+.name-blog-teampoin {
+    font-size: 13px;
+}
+
+.bold-blog-teampoin {
+    font-weight: 600;
+}
+
 
 /* Part of Footer */
 .footer {
