@@ -35,11 +35,17 @@ a:hover {
     text-decoration: none;
 }
 
-/* Part of Section */
-.section-lg {
+/* Part of Section Teampoin*/
+.teampoin-about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.teampoin-contact {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 
 /* Part of Header and Navbar */
 .nav-mobile {
