@@ -1,0 +1,385 @@
+/* 
+Theme Name : TeamPoin Theme v1.0
+Description : Simple modern UI theme v1.0
+Author : TEAMPOIN
+Version : 1.0
+*/
+
+/* Part of Body */
+body {
+    font-size: 1em;
+    line-height: 1.85714286em;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    background-color: #012c6d;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: open sans, helvetica, arial, sans-serif;
+    color: #252525;
+    font-weight: 300;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: -.01em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Part of Section */
+.section-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Part of Header and Navbar */
+.nav-mobile {
+    border-bottom: 1px solid #767676;
+    background-color: #767676;
+}
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 25px;
+    color: #fff !important;
+}
+
+.navbar-brand img {
+    width: 270px;
+    height: 45px;
+}
+
+.navbar-light,
+.navbar-nav,
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 300;
+}
+
+ul.navbar-nav li {
+    opacity: 1;
+    color: #fff !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbar-nav>li>a {
+    font-size: .857142857142857em;
+    line-height: 2.166666666666667em;
+    font-weight: 500;
+}
+
+.navbar-nav>li>a:hover {
+    color: #fff !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-mobile .toggler-btn {
+    padding: 0.375rem 0.50rem;
+    background: transparent;
+    font-size: 15pt !important;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+}
+
+/* Part of Button Search*/
+.btn-search {
+    box-shadow: none;
+    border-radius: 35% !important;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-search:hover {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/* Part of Box Search Mobile and Desktop */
+.search-box {
+    left: 50%;
+    position: fixed;
+    width: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: width 0.3s ease 0.3s, visibility 0s ease 0.8s;
+    -moz-transition: width 0.3s ease 0.3s, visibility 0s ease 0.8s;
+    transition: width 0.3s ease 0.3s, visibility 0s ease 0.8s;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    z-index: 999999;
+}
+
+.search-box.active {
+    width: 100%;
+    visibility: visible;
+    -webkit-transition: width 0.3s ease 0s;
+    -o-transition: width 0.3s ease 0s;
+    transition: width 0.3s ease 0s;
+}
+
+.search-box .search-submit {
+    display: none;
+}
+
+.search-box .searchsubmit {
+    display: none;
+}
+
+.search-box .search-field {
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 80%;
+    margin-left: -40%;
+    left: 50%;
+    margin-top: -40px;
+    background: none;
+    color: #ffffff !important;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.search-box .search-field:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.search-box .search-field::-webkit-input-placeholder {
+    color: #ffffff !important;
+}
+
+.search-box .search-field::-moz-placeholder {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+.search-box .search-field:-ms-input-placeholder {
+    color: #ffffff !important;
+}
+
+.search-box .close {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 300;
+    margin-top: 10px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.search-box.active .close {
+    display: block;
+}
+
+/* Part of CSS Teampoin */
+.title-teampoin {
+    font-size: 17pt;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p.value-teampoin {
+    font-size: 11pt;
+    text-align: center !important;
+    color: #fff;
+    font-weight: 500;
+}
+
+.font-teampoin p {
+    font-size: 11pt;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn-teampoin {
+    width: 100%;
+}
+
+.to-service img {
+    width: 185px;
+    height: 185px;
+}
+
+figure.to-service {
+    text-align: center !important;
+}
+
+.copyright-teampoin {
+    opacity: 1;
+    color: #fff;
+    font-size: 10pt;
+}
+
+.form-control {
+    height: 50px;
+}
+
+a.social-media-teampoin {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.social-media-teampoin:hover {
+    color: #fff;
+}
+
+.sticky-media-teampoin {
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: rgba(49, 181, 26, 0.9);
+    color: rgba(255, 255, 255, 1);
+    bottom: 100px;
+    right: 45px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+    transition: box-shadow 80ms ease-in-out, width .4s ease .2s;
+    z-index: 99999;
+}
+
+.sticky-media-teampoin a {
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Part of Carousel */
+.carousel .carousel-indicators {
+    position: absolute;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    z-index: 2;
+}
+
+.carousel::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Part of Service */
+.to-card {
+    position: relative;
+    transition: .3s;
+}
+
+.to-card .card-text,
+.to-card:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.to-card:after {
+    content: '';
+    display: block;
+    background: #bf2025;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: rotate3d(-1, 1, 0, 100deg);
+    transition: .4s;
+}
+
+.to-card:hover:after {
+    opacity: .9;
+    transform: rotate3d(0, 0, 0, 0deg);
+}
+
+.to-card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    top: 45%;
+    opacity: 0;
+    transform: translate(10%, -30%);
+    transition: .3s;
+    text-align: center;
+    z-index: 1;
+}
+
+.card-text h3 {
+    color: #fff;
+}
+
+.to-card:hover .card-text {
+    opacity: 1;
+    transform: translate(0, -50%);
+    transition-delay: .3s;
+}
+
+/* Part of Footer */
+.footer {
+    border-top: 1px solid #ebebeb;
+    background-color: #767676 !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.justify-content-start,
+.justify-content-end {
+    justify-content: center !important;
+}
+
+
+/* Part of Media Query */
+@media (min-width: 992px) {
+    figure.to-service {
+        text-align: left !important;
+    }
+
+
+    /* Part of Navbar */
+    .justify-content-start {
+        justify-content: flex-start !important;
+    }
+
+    .justify-content-end {
+        justify-content: flex-end !important;
+    }
+}
