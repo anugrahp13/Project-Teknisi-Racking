@@ -296,7 +296,62 @@ a.social-media-teampoin:hover {
 }
 
 /* Part of Blog */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.flex-row>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row .card-post,
+.flex-row .card-body {
+    flex-direction: column;
+    display: flex;
+    flex: 1 0 auto;
+    height: auto;
+    position: relative;
+}
+
+.card-body {
+    flex-direction: column;
+    display: flex;
+    flex: 1 0 auto !important;
+    height: auto;
+    position: relative !important;
+}
+
+.card-body {
+    position: relative;
+}
+
+.post-title-teampoin {
+    font-size: 1.1425em;
+    margin-top: 6px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.img-post-teampoin {
+    height: 29px;
+    width: 29px;
+}
+
+.card-img-top:hover {
+    opacity: .9;
+}
+
+.name-post-teampoin a {
+    font-size: 10pt;
+    color: #333;
+    font-weight: 400;
+}
+
+.text-dark {
+    font-size: 12pt;
+}
 
 /* Part of Footer */
 .footer {
