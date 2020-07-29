@@ -381,6 +381,81 @@ a.social-media-teampoin:hover {
     font-weight: 600;
 }
 
+.blog-content-teampoin {
+    font-size: 15px;
+    line-height: 1.74;
+    letter-spacing: .01rem;
+}
+
+.blog-media-teampoin {
+    font-size: 12px;
+    letter-spacing: .8px;
+}
+
+
+.facebook {
+    background-color: #516eab;
+    color: #fff;
+}
+
+.facebook:hover {
+    background-color: #516eab;
+    color: #fff;
+    opacity: .9;
+}
+
+.twitter {
+    background-color: #29c5f6;
+    color: #fff;
+}
+
+.twitter:hover {
+    background-color: #29c5f6;
+    color: #fff;
+    opacity: .9;
+}
+
+.telegram {
+    background-color: #35ade1;
+    color: #fff;
+}
+
+.telegram:hover {
+    background-color: #35ade1;
+    color: #fff;
+    opacity: .9;
+}
+
+.list-group-item {
+    padding: 0;
+    border-top: none;
+    border-bottom: 1px solid #eee;
+    background-color: transparent;
+}
+
+.img-auth-teampoin {
+    width: 90px;
+    height: 90px;
+}
+
+.name-auth-teampoin {
+    font-weight: 500;
+}
+
+.bio-auth-teampoin {
+    font-weight: 400;
+    font-size: 10pt;
+    line-height: 1.60;
+}
+
+.tag-blog-teampoin,
+.tag-blog-teampoin a {
+    font-size: 10px;
+    line-height: 1.60;
+    color: #d3dbe8 !important;
+    text-decoration: none;
+}
+
 
 /* Part of Footer */
 .footer {
