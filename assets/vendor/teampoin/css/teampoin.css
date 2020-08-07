@@ -64,7 +64,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    width: 270px;
     height: 45px;
 }
 
@@ -217,8 +216,11 @@ ul.navbar-nav li {
 
 p.value-teampoin {
     font-size: 11pt;
-    text-align: center !important;
     color: #fff;
+}
+
+p.center {
+    text-align: center !important;
 }
 
 .font-teampoin p {
