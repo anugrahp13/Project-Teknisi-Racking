@@ -358,20 +358,24 @@ a.social-media-teampoin:hover {
 /* Part of FAQ */
 .dion-teampoin {
     background-color: transparent !important;
-    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    border-left: none;
+    border-top: none;
+    border-right: none;
     border-radius: 0 !important;
 }
 
 .card-header {
-    padding: 0.5rem 1rem;
-    background-color: #fff;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
     border: none;
 }
 
 .btn-link {
+    padding: 0.2rem 0.2rem;
     width: 100%;
     font-size: 15px;
-    color: #000 !important;
+    color: #fff !important;
     font-weight: bold !important;
     text-align: left !important;
     text-decoration: none !important;
@@ -383,7 +387,7 @@ a.social-media-teampoin:hover {
     font-size: 25px;
     text-align: center;
     border-radius: 5px;
-    right: 15px;
+    right: 1px;
     top: 6px;
     position: absolute;
 }
@@ -393,6 +397,7 @@ a.social-media-teampoin:hover {
 }
 
 .dion-text-teampoin {
+    padding: 0.7rem 0.8rem;
     color: #fff;
     font-size: 14px;
     font-weight: 200;
