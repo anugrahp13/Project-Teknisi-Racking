@@ -356,6 +356,47 @@ a.social-media-teampoin:hover {
 }
 
 /* Part of FAQ */
+.dion-teampoin {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-link {
+    width: 100%;
+    font-size: 15px;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+
+.btn-link:after {
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 6px;
+    position: absolute;
+}
+
+.btn-link.collapsed:after {
+    content: '\002b';
+}
+
+.dion-text-teampoin {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
 
 /* Part of Post Blog */
 /* Breadcrumbs */
