@@ -148,7 +148,29 @@
                     </div>
                     <!-- Part of Comments -->
                     <div class="card p-4 my-2">
-                        <div class="card-body">
+                        <div id="disqus_thread"></div>
+                        <script>
+                            /**
+                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
+                            var disqus_config = function () {
+                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+                            */
+                            (function () { // DON'T EDIT BELOW THIS LINE
+                                var d = document,
+                                    s = d.createElement('script');
+                                s.src = 'https://teknisi-racking.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a
+                                href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+                        <!-- <div class="card-body">
                             <h3 class="name-comments-teampoin mb-2">Tulis Komentar / Pertanyaan</h3>
                             <div class="note-comments-teampoin mb-3">Your email address will not be published. Required
                                 fields are marked</div>
@@ -178,7 +200,7 @@
                                     </button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

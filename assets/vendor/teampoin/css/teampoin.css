@@ -371,6 +371,10 @@ a.social-media-teampoin:hover {
     border: none;
 }
 
+.btn:focus {
+    box-shadow: none;
+}
+
 .btn-link {
     padding: 0.2rem 0.2rem;
     width: 100%;
