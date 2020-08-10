@@ -523,18 +523,6 @@ a.social-media-teampoin:hover {
     text-decoration: none;
 }
 
-.name-comments-teampoin {
-    font-weight: 700;
-}
-
-.note-comments-teampoin {
-    font-size: 13px;
-}
-
-.form-teampoin textarea,
-.form-teampoin input {
-    font-size: 14px;
-}
 
 /* Part of Footer */
 .footer {
