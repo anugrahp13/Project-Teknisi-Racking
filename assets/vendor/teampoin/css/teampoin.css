@@ -298,6 +298,18 @@ a.social-media-teampoin:hover {
 }
 
 /* Part of Blog */
+.breadcrumbs a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.breadcrumbs .breadcrumbs_last {
+    font-weight: 600;
+    font-size: 10pt;
+}
+
 .flex-row {
     display: flex;
     flex-wrap: wrap;
