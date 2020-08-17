@@ -371,7 +371,7 @@ ul.pagination {
     opacity: .9;
 }
 
-.name-post-teampoin a {
+span.name-post-teampoin {
     font-size: 10pt;
     color: #333;
     font-weight: 400;
