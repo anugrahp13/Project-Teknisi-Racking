@@ -53,8 +53,8 @@ a:hover {
 
 /* Part of Header and Navbar */
 .nav-mobile {
-    border-bottom: 1px solid #767676;
-    background-color: #767676;
+    border-bottom: 1px solid #f5f0e6;
+    background-color: #f5f0e6;
 }
 
 .navbar-brand {
@@ -64,13 +64,13 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 45px;
+    height: 52px;
 }
 
 .navbar-light,
 .navbar-nav,
 .nav-link {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
     font-weight: 300;
 }
 
@@ -87,7 +87,7 @@ ul.navbar-nav li {
 }
 
 .navbar-nav>li>a:hover {
-    color: #fff !important;
+    color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -99,7 +99,7 @@ ul.navbar-nav li {
     background: transparent;
     font-size: 15pt !important;
     border: none;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.7);
     box-shadow: none;
 }
 
@@ -107,7 +107,7 @@ ul.navbar-nav li {
 .btn-search {
     box-shadow: none;
     border-radius: 35% !important;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .btn-search:hover {
@@ -311,11 +311,6 @@ a.social-media-teampoin:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
-.breadcrumbs .breadcrumbs_last {
-    font-weight: 600;
-    font-size: 10pt;
-}
-
 .icon-breadcrumbs {
     color: #fff;
 }
@@ -440,7 +435,7 @@ span.name-post-teampoin {
     font-size: 10pt;
 }
 
-.breadcrumbs .breadcrumbs_last {
+span.breadcrumbs_last {
     font-weight: 400;
     font-size: 10pt;
 }
